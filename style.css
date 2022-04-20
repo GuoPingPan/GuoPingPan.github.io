@@ -4,7 +4,8 @@
 }
 
 body,html{
-    height: 100%;
+    /* height: 100%; */
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 body {
     background:transparent url(images/cat.gif) no-repeat fixed;
@@ -16,6 +17,18 @@ li {
 }
 
 
+.clearfix:before,.clearfix:after {
+    content: "";
+    display: table;
+}
+.clearfix:after {
+    clear:both;
+}
+.clearfix {
+    *zoom: 1;
+}
+
+/* ----------------------------header---------------------------- */
 .header {
     position: relative;
     height: 250px;
@@ -36,7 +49,6 @@ li {
 
 .header .title h1 {
     text-align: center;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     /* line-height: 120px; */
     margin-top: 20px;
     text-shadow: 0 1px 2px gainsboro;
@@ -47,7 +59,7 @@ li {
 }
 
 .header .title .icon {
-    width: 200px;
+    width: 210px;
     margin: 0 auto;
 
 }
@@ -60,12 +72,17 @@ li {
     margin-left: 0;
 }
 
+/* ----------------------------header---------------------------- */
+
+
+/* ----------------------------nav---------------------------- */
 
 .nav {
     position: sticky;
     float: left;
     margin-top: 10px;
     left: 50px;
+    top: 10px;
     width: 200px;
     height: 269px;
     background: transparent url(images/nav.png) no-repeat;
@@ -76,15 +93,15 @@ li {
 
 
 .nav ul {
-    margin-top: 75px;
+    margin-top: 65px;
 }
 
 .nav ul li {
     text-align: center;
-    margin: 25px;    
+    margin: 10px;    
 }
 .nav ul li.person {
-    margin-bottom: 50px;
+    margin-bottom: 40px;
 }
 .nav ul li a {
     display: inline-block;
@@ -100,6 +117,10 @@ li {
 
 }
 
+/* ----------------------------nav---------------------------- */
+
+
+/* ----------------------------main---------------------------- */
 
 .main {
     position: relative;
@@ -111,13 +132,254 @@ li {
 }
 
 .main .person {
-
-}
-
-.main .person {
     
 }
 
-.main .person {
+.main .github {
     
+}
+
+.main .award {
+    
+}
+
+.diviline {
+    width: 85%;
+    height: 3px;
+    margin: 30px auto;
+    background-color: rgb(40, 188, 215);
+    /* box-shadow: 0px 2px 5px 10px rgba(240, 240, 240, 0.3);   */
+}
+
+
+
+/* ------------person------------ */
+
+.main div .mainheader {
+    position: relative;
+    height: 120px;
+    /* top: 50px;
+    left: 50px; */
+}
+
+.main .mainheader img {
+    /* position: absolute; */
+    float: left;
+    height: 50px;
+    margin-top: 60px;
+    margin-left: 80px;
+
+}
+
+.main .mainheader h1 {
+    /* position: absolute; */
+    float: left;
+    margin-top: 65px;
+    margin-left: 10px;
+    font-size: 20px;
+    line-height: 50px;
+    color: rgb(40, 188, 215);
+
+}
+
+.main .mainheader h1:hover {
+    color: rgb(229, 132, 160);
+}
+
+.main .text {
+    position: relative;
+    height: 200px;
+}
+
+.main .text h3 {
+    /* float: left; */
+    display: block;
+    /* position: absolute; */
+    margin-top: 20px;
+    margin-left: 140px;
+    font-size: 16px;
+
+}
+
+.main .text ul {
+    margin-left: 140px;
+    margin-top: 20px;
+}
+.main .text ul li {
+    margin-top: 20px;
+    font-size: 15px;
+}
+
+
+.main .text em {
+    font-style: normal;
+    color: rgb(37, 176, 202);
+}
+
+.main a {
+    text-decoration: none;
+}
+
+.main .text strong {
+    color: rgb(0, 155, 255);
+}
+
+.main strong.link {
+    color: rgb(229, 132, 160);
+}
+.main strong.link:hover {
+    color: rgb(46, 222, 255);
+}
+
+.main .person .text .mypic {
+    position: absolute;
+    /* left: 10px; */
+    top: 50%;
+    margin-top: -110px;
+    right: 140px;
+    /* width: 150px;
+    height: 100%; */
+}
+
+.main .person .text .mypic img {
+    width: 150px; 
+    border-radius: 20px; 
+    box-shadow: 0 2px 10px 2px gainsboro;
+}
+/* ------------person------------ */
+
+
+/* ------------direction------------ */
+
+.main .techdirection {
+    position: relative;
+}
+
+.main .list {
+
+}
+
+.main .techdirection .slam1 {
+    float: right;
+    margin-top: -20px;
+    margin-right: 120px;
+}
+
+.main .techdirection .slam1 img {
+    height: 100px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px 2px gainsboro;
+}
+
+.main .techdirection .slam2 {
+    float: right;
+    margin-top: -20px;
+    margin-right: 20px;
+}
+
+.main .techdirection .slam2 img {
+    height: 100px;
+    width: 150px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px 2px gainsboro;
+}
+
+.main .techdirection .huawei {
+    position: absolute;
+    float: right;
+    top: 220px;
+    right: 120px;
+    /* margin-top: 40px; */
+    /* margin-right: 100px; */
+}
+
+.main .techdirection .huawei img {
+    height: 100px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px 2px gainsboro;
+}
+
+.main .techdirection .dog {
+    position: absolute;
+    float: right;
+    top: 220px;
+    /* right: 20px; */
+    /* margin-top: 40px; */
+    right: 290px;
+}
+
+.main .techdirection .dog img {
+    height: 100px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px 2px gainsboro;
+}
+
+
+.main .list ul {
+    margin-left: 140px;
+    margin-top: 20px;
+}
+
+.main .list ul li {
+    margin-top: 10px;
+    /* height: 20px; */
+}
+
+.main .list ul li img {
+    float: left;
+    margin-top: 5px;
+    width: 15px;
+}
+
+.main .list ul li em {
+    font-weight: 700;
+    font-style: normal;
+    font-size: 15px;
+    line-height: 20px;
+    margin-left: 10px;
+}
+
+.main .list ul li strong {
+    font-size: 15px;
+    margin-left: 10px;
+}
+
+
+/* ------------direction------------ */
+
+
+
+/* ------------Github------------ */
+.main .github .repository {
+    width: 85%;
+    overflow: hidden;
+    border-radius: 20px;
+    margin: 0 auto; 
+    background-color: transparent;
+    border-radius: 50px;
+}
+
+.main .github .repository img {
+    width: 110%;
+    /* margin-left: -5%; */
+}
+
+/* ------------Github------------ */
+
+
+/* ------------Awards------------ */
+.main .award {
+}
+
+/* ------------Awards------------ */
+
+/* ------------End------------ */
+.main .end {
+    text-align: center;
+    margin-top: -30px;
+    font-size: 10px;
+    color: white;
+    background: transparent url(images/header.jpg) no-repeat;
+    background-position: center 100%;
+    height: 30px;
 }
