@@ -21,10 +21,11 @@ repository               : "academicpages/academicpages.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "images/avater.jpg"
+  avatar           : "https://github.com/GuoPingPan/GuoPingPan.github.io/images/avater.jpg"
   name             : "Guoping Pan"
   pronouns         : # example: "she/her"  
-  bio              : "Work on Embodied AI. Master Student, Tsinghua University"
+  bio              : "Work on Embodied AI.
+                      Master Student, Tsinghua University"
   location         : "Shenzhen, China"
   employer         : "Tsinghua University"
   uri              : # URL
@@ -215,17 +216,17 @@ collections:
 
 # Defaults
 defaults:
-  # _posts
-  - scope:
-      path: ""
-      type: posts
-    values:
-      layout: single
-      author_profile: true
-      read_time: true
-      comments: true
-      share: true
-      related: true
+  # # _posts
+  # - scope:
+  #     path: ""
+  #     type: posts
+  #   values:
+  #     layout: single
+  #     author_profile: true
+  #     read_time: true
+  #     comments: true
+  #     share: true
+  #     related: true
   # _pages
   - scope:
       path: ""
