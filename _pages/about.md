@@ -11,7 +11,7 @@ I'm a master student at Tsinghua Shenzhen International Graduate School (SIGS), 
 
 Research Interests
 ======
-I am now woking on improving the mobile manipulation capability of Legged Robot. I am also optimistic and interested in achieving general artificial intelligence to liberate the workforce. Embodied intelligence is my next "<span style="color: yellow;">North Star</span>".
+I am now woking on improving the mobile manipulation capability of Legged Robot. I am also optimistic and interested in achieving general artificial intelligence to liberate the workforce. Embodied intelligence is my next "<span style="color: orange;">North Star</span>".
 
 
 Getting started
